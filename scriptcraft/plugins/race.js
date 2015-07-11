@@ -75,10 +75,8 @@ function finish_game(winner){
   for (i=0; i < players.length; i++ ) {
     echo(player, winner.name + ' is the winner! ');
     player = players[i];
-    sounds.zombieDeath(player);
-    sounds.zombieDeath(player);
-    sounds.zombieDeath(player);
     echo(player, 'congratulation! ');
+    sounds.ambienceRain(player);
     slash([
       'tp ' + player.name + ' -26 71 241',
     ], server);
