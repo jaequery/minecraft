@@ -1,0 +1,52 @@
+[04:05:47] [CanaryMod] [INFO]: Starting: CanaryMod 1.8.0-1.2.0
+[04:05:48] [CanaryMod] [INFO]: Canary Path: /minecraft/CanaryMod-1.2.0.jar & Working From: /minecraft
+[04:05:48] [CanaryMod] [INFO]: Registered xml Database
+[04:05:48] [CanaryMod] [INFO]: Found 1 plugins; total: 1
+[04:05:50] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting minecraft server version 1.8
+[04:05:50] [net.minecraft.server.dedicated.DedicatedServer] [WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[04:05:50] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Loading properties
+[04:05:51] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Generating keypair
+[04:05:51] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Starting Minecraft server on *:25565
+[04:05:51] [CanaryMod] [INFO]: Enabling early Plugins...
+[04:05:52] [CanaryMod] [INFO]: Enabling late Plugins...
+[04:05:52] [CanaryMod] [INFO]: Enabling plugin ScriptCraft
+[04:05:56] [ScriptCraft] [ERROR]: Plugin /minecraft/scriptcraft/plugins/.#spawn.js Error: require() failed to find matching file for module '/minecraft/scriptcraft/plugins/.#spawn.js' in working directory '/minecraft/scriptcraft/lib'  and not found in paths ["/minecraft/scriptcraft/lib/","/minecraft/scriptcraft/modules/"]
+But found module/s named: plugin,scriptcraft - is this what you meant?
+[04:05:56] [ScriptCraft] [WARN]: alias plugin is not yet supported in CanaryMod
+[04:05:59] [ScriptCraft] [ERROR]: Plugin /minecraft/scriptcraft/plugins/commando/.#commando.js Error: require() failed to find matching file for module '/minecraft/scriptcraft/plugins/commando/.#commando.js' in working directory '/minecraft/scriptcraft/lib'  and not found in paths ["/minecraft/scriptcraft/lib/","/minecraft/scriptcraft/modules/"]
+But found module/s named: command,plugin,scriptcraft - is this what you meant?
+[04:05:59] [ScriptCraft] [WARN]: commando-test not yet supported in CanaryMod
+[04:05:59] [ScriptCraft] [WARN]: commando plugin is not yet supported in CanaryMod
+[04:06:00] [CanaryMod] [INFO] [MESSAGE]: ?EPermission added
+[04:06:00] [CanaryMod] [INFO] [MESSAGE]: ?EPermission added
+[04:06:00] [ScriptCraft] [WARN]: cow-clicker minigame is not yet supported in CanaryMod and Craftbukkit
+[04:06:01] [net.minecraft.server.MinecraftServer] [INFO]: Preparing start region for level default_NORMAL (0)
+[04:06:02] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 4%
+[04:06:03] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 23%
+[04:06:04] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 69%
+[04:06:05] [net.minecraft.server.MinecraftServer] [INFO]: Preparing spawn area: 88%
+[04:06:05] [net.minecraft.server.dedicated.DedicatedServer] [INFO]: Done (14.272s)! For help, type "help" or "?"
+[04:06:06] [ScriptCraft] [INFO]: js-patch setTimeout() test complete
+[04:07:25] [net.minecraft.server.network.NetHandlerLoginServer] [INFO]: UUID of player stiqr is 515d882c-7c3b-40be-95e8-92ebd7f0422f
+[04:07:26] [net.minecraft.server.management.ServerConfigurationManager] [INFO]: stiqr[/192.168.59.3:50960] logged in with entity id 449 at (-24.250998067901595, 70.0, 248.15375466642922)
+[04:07:27] [ScriptCraft] [INFO]: Enabling scripting for player stiqr
+[04:07:27] [ScriptCraft] [INFO]: Player[name=stiqr] connected
+[04:07:27] [net.minecraft.server.MinecraftServer] [INFO]: stiqr joined the game
+[04:07:29] [net.minecraft.server.MinecraftServer] [WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2069ms behind, skipping 41 tick(s)
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: [Server: Set the time to 1000]
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: Set the time to 1000
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: [Server: Changing to clear weather]
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: Changing to clear weather
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: [Server: Teleported stiqr to -19.5, 70.0, 251.5]
+[04:07:41] [net.minecraft.server.MinecraftServer] [INFO]: Teleported stiqr to -19.5, 70.0, 251.5
+[04:08:05] [net.minecraft.server.MinecraftServer] [INFO]: [Server: Teleported stiqr to -25.5, 71.0, 241.5]
+[04:08:05] [net.minecraft.server.MinecraftServer] [INFO]: Teleported stiqr to -25.5, 71.0, 241.5
+[04:08:08] [net.minecraft.server.MinecraftServer] [INFO]: [Server: Teleported stiqr to -25.5, 70.0, 248.5]
+[04:08:08] [net.minecraft.server.MinecraftServer] [INFO]: Teleported stiqr to -25.5, 70.0, 248.5
+[04:09:01] [CanaryMod] [INFO] [NOTICE]: Console issued a manual shutdown
+[04:09:01] [net.minecraft.server.MinecraftServer] [INFO]: Stopping server
+[04:09:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving players
+[04:09:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving worlds
+[04:09:01] [net.minecraft.server.MinecraftServer] [INFO]: Saving chunks for level 'default'/Overworld
+[04:09:03] [CanaryMod] [INFO]: Disabling Plugins ...
+[04:09:03] [CanaryMod] [INFO]: Disabling plugin ScriptCraft
